@@ -2,7 +2,7 @@ import os
 import shutil
 from pathlib import Path
 
-BASE = Path(r"D:\sesli_kuran_hosting\public\audio_data\Abu_Bakr_Ash-Shaatree")
+BASE = Path(r"D:\sesli_kuran_hosting\public\audio_data\AbdulSamad")
 
 def main():
     if not BASE.exists():

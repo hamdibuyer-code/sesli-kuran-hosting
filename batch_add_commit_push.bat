@@ -8,7 +8,7 @@ REM Bir seferde kaç mp3 eklensin?
 set BATCH=200
 set COUNT=0
 
-for %%F in (public\audio_data\Abu_Bakr_Ash-Shaatree\*.mp3) do (
+for %%F in (public\audio_data\Ghamadi\*.mp3) do (
     git add "%%F"
     set /a COUNT+=1
 
